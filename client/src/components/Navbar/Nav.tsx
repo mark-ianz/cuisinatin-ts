@@ -8,7 +8,7 @@ export default function Nav() {
       <nav className="px-40 border-b">
         <div className="w-full flex">
           <h1>Logo</h1>
-          <Input type="search" name="search" id="search" />
+          <Input type="search" name="search" id="search" className="max-w-sm ml-auto"/>
           <Button className="rounded-full px-8">Login</Button>
           <DarkModeSwitch />
         </div>
